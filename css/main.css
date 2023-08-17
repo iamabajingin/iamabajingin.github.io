@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Caveat&family=Montserrat:wght@300&family=Pacifico&display=swap");
+
+.montserrat_font {
+  font-family: "Montserrat", sans-serif;
+}
+
+.bangers_font {
+  font-family: "Bangers", cursive;
+}
+
+.fasthand_font {
+  font-family: "Fasthand", cursive;
+}
+
+.caveat_font {
+  font-family: "Caveat", cursive;
+}
+
+.underlined {
+  text-decoration: underline;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.push-20 {
+  margin-top: 20px;
+}
+
+.push-10 {
+  margin-top: 10px;
+}
+
+.push-50 {
+    margin-top: 50px;
+}
+
+.thick {
+  font-weight: 600;
+}
+
+.ui.social-icons .facebook.icon {
+  color: #3b5998; /* Facebook blue color */
+}
+
+.ui.social-icons .twitter.icon {
+  color: #1da1f2; /* Twitter blue color */
+}
+
+.black {
+  color: #000000;
+}
+
+.underline_on_hover:hover {
+  text-decoration: underline;
+}
+
+.hand_pointer {
+  cursor: pointer;
+}
+
+#bukaplus_segment {
+  min-height: 1000px;
+}
+
+#bukaplus_segment {
+  height: 100vh; /* Adjust the height as needed */
+  position: relative;
+}
+
+#bukaplus_segment::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/fast-food-dish-blue.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 768px) {
+  #bukaplus_segment {
+    background-position: top;
+    height: auto;
+  }
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #ffffff;
+  opacity: 0.5;
+}
+
+.swiper-slide img,
+.swiper-slide iframe {
+  border: 5px solid #fbab2a; /* Set the desired border color and thickness */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.foodie_yellow {
+  color: #fbab2a;
+}
+
+.wodisilver {
+  color: #c0c0c0;
+}
+
+.pacifico_font {
+  font-family: "Pacifico", cursive;
+}
+
+.shadowed {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#volunteer_button {
+  /* background-color: #790705; */
+  /* color: #ffffff; */
+  margin-top: 50px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+#volunteer_button:hover {
+  opacity: 0.9;
+}
+
+.foodie_red {
+  color: #790705;
+}
+
+.mfp-close {
+  color: #fbab2a !important; /* Replace with your desired color */
+}
+
+.ui.padded.grid {
+  padding-left: 5em;
+  padding-right: 5em;
+}
+
+@media only screen and (max-width: 767px) {
+  /* Styles for mobile devices */
+  .ui.padded.grid {
+    padding: 0; /* Remove padding for mobile devices */
+  }
+}
+
+.mastext {
+  font-size: 150px;
+}
+
+/* Hide sidebar toggle on laptops */
+@media only screen and (min-width: 768px) {
+  .mobile-only {
+    display: none;
+  }
+}
+
+/* Hide desktop menu items on mobile */
+@media only screen and (max-width: 767px) {
+  .desktop-only {
+    display: none;
+  }
+}
+
+/* Hide the right menu on small screens (width <= 767px) */
+@media only screen and (max-width: 767px) {
+
+}
+
+#toccer {
+  display: none;
+}
+
+@media only screen and (max-width: 767px) {
+  #toccer {
+    display: block;
+  }
+
+  .toccer {
+    display: none !important;
+  }
+}
+
+#fullscreen-container {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 999;
+  overflow: hidden;
+}
+
+#fullscreen-image {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+}
+
+.close-button {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
